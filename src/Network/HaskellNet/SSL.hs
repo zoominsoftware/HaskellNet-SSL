@@ -3,7 +3,7 @@ module Network.HaskellNet.SSL
   , defaultSettingsWithPort
   ) where
 
-import Network.Socket.Internal (PortNumber)
+import Network.Socket (PortNumber)
 
 data Settings = Settings
               { sslPort                        :: PortNumber
