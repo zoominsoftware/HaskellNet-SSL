@@ -40,11 +40,11 @@ library
                        bytestring,
                        data-default
   else
-    build-depends:     base >= 4,
-                       HaskellNet >= 0.3,
-                       tls >= 1.2,
-                       connection >= 0.2.7,
-                       network >= 2.4,
+    build-depends:     base >= 4 && < 5,
+                       HaskellNet >= 0.3 && < 0.7,
+                       tls >= 1.2 && < 1.6,
+                       connection >= 0.2.7 && < 0.4,
+                       network >= 2.4 && < 3.2,
                        network-bsd >= 2.8,
                        bytestring,
                        data-default
